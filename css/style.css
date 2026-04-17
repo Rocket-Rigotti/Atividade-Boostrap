@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 .card
 
 {
@@ -16,19 +8,31 @@
      margin: 35px;
      display: flex;
 
-
-     
-     
-
 }
 
 
 .card2
 
 {
-    
+
      display: flex;
      justify-content: center;
+
+}
+
+.Carrossel-banner
+
+{
+    height: 900px;
+    width: 100%;
+    padding: 30px 150px;
+
+}
+
+header img
+
+{
+   width: 110px;
 
 }
 
