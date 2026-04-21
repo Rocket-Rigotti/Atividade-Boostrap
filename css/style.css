@@ -2,39 +2,69 @@
 .card
 
 {
-   
-     padding: 10px 10px;
-     width: 400px;
-     margin: 35px;
-     display: flex;
-
+      padding: 10px 10px;
+      width: 400px;
+      margin: 35px;
+      display: flex;
 }
 
 
 .card2
 
 {
-
-     display: flex;
-     justify-content: center;
-
+      display: flex;
+      justify-content: center;
 }
 
 .Carrossel-banner
 
 {
-    height: 900px;
-    width: 100%;
-    padding: 30px 150px;
+      height: 900px;
+      width: 100%;
+      padding: 30px 150px;
+}
 
+header
+
+{
+      padding: 5px 10px;
 }
 
 header img
 
 {
-   width: 110px;
-
+      width: 110px;
 }
+
+.menu-ben10
+
+{
+      display: flex;
+      list-style: none;
+      cursor: pointer;
+      gap: 25px;
+      justify-content: center;
+}
+
+.menu-ben10:hover
+
+{
+      color:rgb(8, 58, 8);
+}
+
+header a 
+
+{
+      text-decoration: none;
+      color: black;
+      transition:color 0.6s;
+      font-size: 18px;
+}
+
+
+
+
+
 
 
 
