@@ -3,53 +3,58 @@
 
 {
       padding: 10px 10px;
-      width: 400px;
-      margin: 35px;
-      display: flex;
+      margin: 45px;                 /*  separação entre os cards            */
 }
 
+.card-1                            /*   Todos os cards            */
 
-.card2
+{
+      display: flex;                 
+      justify-content: center;
+      align-items: center;
+}
+
+.card2                                  /*  posso apagar ou não, só coloca um embaixo do outro  */
 
 {
       display: flex;
-      justify-content: center;
+      justify-content:center;
 }
+
+
 
 .Carrossel-banner
-
+                                  /* para deixar os card mais embaixo colocar a altura e definir :>  */
 {
-      height: 900px;
-      width: 100%;
       padding: 30px 150px;
 }
 
 header
 
 {
-      padding: 5px 10px;
+      padding: 15px 10px;
+      display: flex;
+      list-style: none;
+      cursor: pointer;
+      gap: 120px;
+      justify-content: center;
+      align-items: center;
 }
 
 header img
 
 {
       width: 110px;
+      
 }
 
-.menu-ben10
+
+
+a:hover
 
 {
-      display: flex;
-      list-style: none;
-      cursor: pointer;
-      gap: 25px;
-      justify-content: center;
-}
-
-.menu-ben10:hover
-
-{
-      color:rgb(8, 58, 8);
+      color:rgb(15, 107, 15);
+      
 }
 
 header a 
@@ -57,9 +62,44 @@ header a
 {
       text-decoration: none;
       color: black;
-      transition:color 0.6s;
+      transition: 0.6s;
       font-size: 18px;
+      font-weight: 500;
+      
 }
+
+
+.Carrossel-banner3
+
+{
+       
+       padding: 30px 150px;
+
+}
+
+.Carrossel-banner2
+
+{
+       padding: 30px 150px;
+}
+
+
+.Card-part2
+
+{
+   display: flex;
+   justify-content: center;
+}
+
+.Card-part3
+
+{
+   padding: 0px 90px 0px 95px;
+}
+
+
+
+
 
 
 
